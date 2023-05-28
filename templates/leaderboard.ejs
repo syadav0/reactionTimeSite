@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LeaderBoard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <h2><a href="/game">Reaction Time Game</a></h2>
+        <div>
+            <a href="/signout" id="signout-header">Sign Out</a>
+            <a href="/leaderboard" id="leaderboard">Leaderboard</a>
+        </div>
+    </div>
+    <br><br>
+
+    <h1>Leaderboard</h1>
+    <div id="table-container">
+        <%- leaderBoardTable %>
+    </div>
+    
+</body>
+
+<script src="reactionTimeGame.js"></script>
+</html>

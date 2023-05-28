@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reaction Time Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <h2><a href="/game">Reaction Time Game</a></h2>
+        <div>
+            <a href="/signout" id="signout-header">Sign Out</a>
+            <a href="/leaderboard" id="leaderboard">Leaderboard</a>
+        </div>
+    </div>
+    <br><br>
+    <div id="username"><%- username %></div>
+
+    <p>To play, click the start button. The box below will be gray. 
+        As soon as the box becomes green, click as fast as possible to measure your
+        reaction time. You will have five attempts to generate an average score.</p>
+    
+    <button id="start">Start</button>
+    <div id="box"></div>
+    <div id="result"></div>
+    <div id="attempts"></div>
+    <div id="popup-bg"> 
+        <div id="popup"> 
+            <br>
+            <br>
+            <img id="gif" src="">
+            <div id="final-scores"></div>
+            <button id="close">Close</button>
+        </div>
+    </div>
+</body>
+
+<script src="reactionTimeGame.js"></script>
+</html>
