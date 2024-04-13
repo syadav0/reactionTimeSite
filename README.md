@@ -1,4 +1,4 @@
-# reactionTimeSite
+# Reaction Time Site
 
 # App Description 
 Reaction time game developed using HTML, CSS, and Javascript. The backend utilizes Node.js and Express to 
